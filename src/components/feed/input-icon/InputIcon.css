@@ -1,0 +1,15 @@
+.InputIcon{
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.InputIcon > span{
+    color: gray;
+    margin-left:5px
+}
+
+.InputIcon:hover{
+    background-color: #f1f1f1;
+}

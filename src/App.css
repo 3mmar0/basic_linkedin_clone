@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  background-color: #f3f2ef;
+  flex-direction: column;
+}
+
+.app__body {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 620px) {
+  .app__body {
+    flex-direction: column;
+  }
+}
